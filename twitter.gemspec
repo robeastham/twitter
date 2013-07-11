@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'twitter/version'
 
 Gem::Specification.new do |spec|
-  spec.add_dependency 'faraday', ['~> 0.8', '< 0.10']
+  spec.add_dependency 'faraday', '0.7.6'
   spec.add_dependency 'simple_oauth', '~> 0.2'
   spec.add_development_dependency 'bundler', '~> 1.0'
   spec.authors = ["John Nunemaker", "Wynn Netherland", "Erik Michaels-Ober", "Steve Richert", "Steve Agalloco"]
